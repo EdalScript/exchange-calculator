@@ -1,5 +1,8 @@
 # Exchange rate calculator
 
-Current version: 1.0
+Current version: 1.1
 
-Work on progress
+## Latest changes:
+-Fixed gradient in the card class
+
+
