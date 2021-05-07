@@ -2,9 +2,9 @@
 
 Current version: V1.2
 
--Removed some currencies and added a new one.
+-Removed and added some currencies
 
--Corrected colour in text and menu.
+-Corrected colours in text and menu.
 
 -Added extra classes to the style for a better UX
 
