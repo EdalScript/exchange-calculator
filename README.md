@@ -1,6 +1,12 @@
 # Exchange rate calculator
 
-Current version: V1.2
+Small app that lets the user convert the value from a currency to another using an API that performs a fetch to get the most recent value for the selected currencies. 
+
+Check me out ---> https://edalscript.github.io/exchange-calculator/
+
+<br/>
+
+### Current version: V-0.1.2
 
 -Removed and added some currencies
 
@@ -8,7 +14,8 @@ Current version: V1.2
 
 -Added extra classes to the style for a better UX
 
-## Backlog V1.1:
--Fixed gradient in the card class.
+## Backlog 
+
+V-0.1.1: Fixed gradient in the card class.
 
 
