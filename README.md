@@ -1,21 +1,22 @@
-# Exchange rate calculator
+## Expenses Tracker 0.1.2
 
-Small app that lets the user convert the value from a currency to another using an API that performs a fetch to get the most recent value for the selected currencies. 
+Track your expenses and control your finances! 
 
-Check me out ---> https://edalscript.github.io/exchange-calculator/
+Check me out ---> https://edalscript.github.io/expenses-tracker/
 
-<br/>
+### Specifications: 
+- Add or remove expenses freely. 
+- The currency used in the project is Russian Ruble and it cannot be modified at the moment by the user.
+- 100% vanilla JavaScript and CSS3. 
 
-### Current version: V-0.1.2
+### Stack: JavaScript, CSS3 and HTML5. 
 
--Removed and added some currencies
+### Version Backlog
 
--Corrected colours in text and menu.
+0.1.2: Gradients and margin fix
 
--Added extra classes to the style for a better UX
+0.1.1: Currency set
 
-## Backlog 
-
-V-0.1.1: Fixed gradient in the card class.
+0.1.0: Pilot
 
 
