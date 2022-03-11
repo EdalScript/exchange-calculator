@@ -1,3 +1,15 @@
+Vue.createApp({
+    data() {
+      return {
+        message: 'Hello Vue!'
+
+      }
+    },
+    handler(){
+        
+    }
+  }).mount('#app')
+
 const currencyEl_one = document.getElementById('currency-one');
 const amountEl_one = document.getElementById('amount-one');
 const currencyEl_two = document.getElementById('currency-two');
@@ -11,7 +23,7 @@ function calculate () {
     const currency_one = currencyEl_one.value;
     const currency_two = currencyEl_two.value;
 
-    fetch(`https://api.exchangerate-api.com/v4/latest/${currency_one}`)//this gives a promise back.
+    fetch(`https://api.exchangerate-api.com/v4/latest/${currency_one}`)
     .then(res => res.json())
     .then(data => {
         const rate = data.rates[currency_two];
