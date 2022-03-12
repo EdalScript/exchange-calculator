@@ -6,11 +6,17 @@ Small app that lets the user convert the value from a currency to another using 
 ### Check me out ---> https://edalscript.github.io/exchange-calculator/
 
 ## Version Backlog: </br>
-V-0.1.2: </br>
+
+0.1.3: </br>
+-Gradient fix </br>
+-Removed some currencies </br>
+-Radius fix
+
+0.1.2: </br>
 -Removed and added some currencies </br>
 -Corrected colours in text and menu. </br>
 -Added extra classes to the style for a better UX
 
 
-V-0.1.1: Fixed gradient in the card class.
+0.1.1: Fixed gradient in the card class.
 
