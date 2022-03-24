@@ -15,7 +15,7 @@
         <h1>Calculadora de Cambio</h1>
         <p>Escoge una divisa y escribe la cantidad a convertir</p>
         <p>Los valores se basan en la tasa de cambio del banco central de cada país</p>
-        <div class="container">
+        <section class="wrapper">
             <div class="currency">
                 <select id="currency-one">
                     <option value="ARS">Argentina (ARS)</option>
@@ -32,7 +32,6 @@
                 </select>
                 <input type="number" inputmode="decimal" id="amount-one" placeholder="0" value="1">
             </div>
-        </div>
         <div class="swap-rate-container">
             <button class="btn" id="swap">
                 Cambiar orden
@@ -55,6 +54,7 @@
             </select>
             <input type="number" id="amount-two" placeholder="0">
         </div>
+    </section>
     </div>
     <script src="script.js"></script>
 </body>

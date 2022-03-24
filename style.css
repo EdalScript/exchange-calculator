@@ -21,9 +21,6 @@ body {
     padding: 20px;    
     backdrop-filter: blur(2rem);
 }
-.container{
-    display: flex;
-}
 .card {
     display:flex;
     flex-direction: column;
@@ -129,6 +126,39 @@ select:focus, input:focus, button:focus {
     background-color: #C5EDF5;   
 }
 
+/* Media queries */
+
+@media all and (max-width:360px){
+    h1{
+        font-size: 16px;
+        margin: 5px;
+    }
+    p {
+        font-size: 14px;
+    }
+    #currency-one, 
+    #currency-two,
+    .swap-rate-container{
+    font-size: 12px;
+    }
+    #amount-one,
+    #amount-two{
+       transform: scale(0.8);
+    }
+    .money-img{
+        margin-top: 2rem;
+        height: 25%;
+        width: 25%;
+    }
+    .card {
+        padding: 2em auto 2em;
+        
+    }
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+}
 
 @media(max-width: 840px) {
     .currency input{
@@ -147,3 +177,4 @@ select:focus, input:focus, button:focus {
         text-align: center;
     }
 }
+
