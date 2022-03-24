@@ -10,70 +10,52 @@
 </head>
 
 <body>
-    <div id="app" class="card">
+    <div class="card">
         <img src="img/money.jpg" alt="logo" class="money-img">
-        <h1>Exchange Calculator</h1>
-        <p>Choose the currency and the amount to get the exchange rate</p>
+        <h1>Calculadora de Cambio</h1>
+        <p>Escoge una divisa y escribe la cantidad a convertir</p>
+        <p>Los valores se basan en la tasa de cambio del banco central de cada país</p>
         <div class="container">
             <div class="currency">
-                <select id="currency-one" v-model="currency-one">
-                    <option value="ARS">ARS</option>
-                    <option value="AUD">AUD</option>
-                    <option value="BRL">BRL</option>
-                    <option value="CAD">CAD</option>
-                    <option value="CHF">CHF</option>
-                    <option value="CLP">CLP</option>
-                    <option value="COP">COP</option>
-                    <option value="CZK">CZK</option>
-                    <option value="DKK">DKK</option>
-                    <option value="EUR">EUR</option>
-                    <option value="GBP">GBP</option>
-                    <option value="MXN">MXN</option>
-                    <option value="NOK">NOK</option>
-                    <option value="PEN">PEN</option>
-                    <option value="PLN">PLN</option>
-                    <option value="RON">RON</option>
-                    <option value="RUB">RUB</option>
-                    <option value="SEK">SEK</option>
-                    <option value="TRY">TRY</option>
-                    <option value="USD" selected>USD</option>
+                <select id="currency-one">
+                    <option value="ARS">Argentina (ARS)</option>
+                    <option value="CAD">Canadá (CAD)</option>
+                    <option value="CLP">Chile (CLP)</option>
+                    <option value="COP">Colombia (COP)</option>
+                    <option value="EUR">Euro</option>
+                    <option value="GBP">Reino Unido (GBP)</option>
+                    <option value="MXN">México (MXN)</option>
+                    <option value="RUB">Rusia (RUB)</option>
+                    <option value="TRY">Turquía (TRY)</option>
+                    <option value="USD" selected>Estados Unidos (USD)</option>
+                    <option value="VES">Venezuela (VES)</option>
                 </select>
                 <input type="number" inputmode="decimal" id="amount-one" placeholder="0" value="1">
             </div>
         </div>
         <div class="swap-rate-container">
-            <button class="btn" id="swap" @click.prevent="handler">
-                Swap
+            <button class="btn" id="swap">
+                Cambiar orden
             </button>
             <div class="rate" id="rate"></div>
         </div>
         <div class="currency">
-            <select id="currency-two" v-model="currency-two">
-                <option value="ARS">ARS</option>
-                <option value="AUD">AUD</option>
-                <option value="BRL">BRL</option>
-                <option value="CAD">CAD</option>
-                <option value="CHF">CHF</option>
-                <option value="CLP">CLP</option>
-                <option value="COP" selected>COP</option>
-                <option value="CZK">CZK</option>
-                <option value="DKK">DKK</option>
-                <option value="EUR">EUR</option>
-                <option value="GBP">GBP</option>
-                <option value="MXN">MXN</option>
-                <option value="NOK">NOK</option>
-                <option value="PEN">PEN</option>
-                <option value="PLN">PLN</option>
-                <option value="RON">RON</option>
-                <option value="RUB">RUB</option>
-                <option value="SEK">SEK</option>
-                <option value="TRY">TRY</option>
-                <option value="USD">USD</option>
+            <select id="currency-two">
+                <option value="ARS">Argentina (ARS)</option>
+                <option value="CAD">Canadá (CAD)</option>
+                <option value="CLP">Chile (CLP)</option>
+                <option value="COP" selected>Colombia (COP)</option>
+                <option value="EUR">Euro</option>
+                <option value="GBP">Reino Unido (GPB)</option>
+                <option value="MXN">México (MXN)</option>
+                <option value="RUB">Rusia (RUB)</option>
+                <option value="TRY">Turquía (TRY)</option>
+                <option value="USD">EEUU (USD)</option>
+                <option id="venezuela" value="VES">Venezuela (VES)</option>
             </select>
             <input type="number" id="amount-two" placeholder="0">
         </div>
     </div>
-    <script src="https://unpkg.com/vue@3"></script>
     <script src="script.js"></script>
 </body>
 
