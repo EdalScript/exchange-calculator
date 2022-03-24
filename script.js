@@ -1,15 +1,3 @@
-Vue.createApp({
-    data() {
-      return {
-        message: 'Hello Vue!'
-
-      }
-    },
-    handler(){
-        
-    }
-  }).mount('#app')
-
 const currencyEl_one = document.getElementById('currency-one');
 const amountEl_one = document.getElementById('amount-one');
 const currencyEl_two = document.getElementById('currency-two');
